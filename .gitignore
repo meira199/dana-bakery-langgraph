@@ -1,0 +1,36 @@
+# Local Python environments and validation artifacts
+.venv/
+.local-validation/
+venv/
+env/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and machine-specific credentials
+.env
+.env.*
+secrets/
+credentials.json
+*credentials*.json
+token.json
+tokens.json
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+
+# Temporary files, logs, and editor/OS backups
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+.DS_Store
+Thumbs.db
